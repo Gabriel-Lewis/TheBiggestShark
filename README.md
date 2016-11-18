@@ -1,8 +1,8 @@
 # TheBiggestShark
 
 ### Background
-
-
+[live demo](https://gabriel-lewis.github.io/TheBiggestShark/)
+![](http://i.imgur.com/kRN7u7P.png)
 The Biggest Shark is a take on the game [Big Fish](http://bigfish.ivank.net/index_smg.html).  The main goal is to gain as much mass as possible by eating smaller sharks without being swallowed by bigger sharks. You move your shark around with the cursor.
 
 ### Wireframes
@@ -13,21 +13,15 @@ This app will consist of a single screen with board, moving sharks(gray), curren
 
 ### Architecture and Technologies
 
-This project will be implemented with the following technologies:
-
-- Vanilla JavaScript and `jquery` for overall structure and game logic,
-- `Easel.js` with `HTML5 Canvas` for DOM manipulation and rendering,
 - Webpack to bundle and serve up the various scripts.
 
 In addition to the webpack entry file, there will be three scripts involved in this project:
 
-`board.js`: this script will handle the logic for creating and updating the necessary `Easel.js` elements and rendering them to the DOM.
+`game_view.js`: this script handle the logic for creating and updating the necessary elements and rendering them to the DOM.
 
-`shark.js`: this script will handle the logic behind the sharks. An Shark object will house the contructor and size functions. The sharks will also have a moving property that will give them a speed and direction.
+`shark.js`: this script will handle the logic behind the sharks. An Shark object will house the constructor and size functions. The sharks will also have a moving property that will give them a speed and direction.
 
-`keymap.js`: this lightweight script will store all of the logic for all keybindings in the game.
-
-`player.js`: this will house the logic of the player and their movements throughout the board.
+`player.js`: this will house the logic of the player.
 
 ### Implementation Timeline
 
