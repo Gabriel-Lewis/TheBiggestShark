@@ -5,6 +5,20 @@
 
 The Biggest Shark is a take on the game [Big Fish](http://bigfish.ivank.net/index_smg.html).  The main goal is to gain as much mass as possible by eating smaller sharks without being swallowed by bigger sharks. You move your shark around with the cursor.
 
+### Functionality & MVP  
+
+In the Biggest Shark players with be able to:
+
+- [x] Navigate around the board with mouse input
+- [x] Eat smaller sharks my bumping into them
+- [ ] Start the game over if they bump into a larger shark
+
+In addition, this project will include:
+
+- [x] Links to my personal Github, and LinkedIn
+- [x] Instructions in the corner
+- [x] A production Readme
+
 ### Wireframes
 
 This app will consist of a single screen with board, moving sharks(gray), current player shark(blue), game instructions, and nav links to the Github, my LinkedIn at the bottom of the screen.
