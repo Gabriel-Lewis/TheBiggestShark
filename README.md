@@ -9,16 +9,15 @@ The Biggest Shark is a take on the popular game Agario. The main goal is to gain
 
 In the Biggest Shark players with be able to:
 
-- [ ] Navigate around the board with wasd and arrow keys
+- [ x ] Navigate around the board with mouse input
 - [ ] Eat smaller sharks my bumping into them
 - [ ] Start the game over if they lose
-- [ ] See their size in the corner of the game
 
 In addition, this project will include:
 
 - [ ] Links to my personal Github, and LinkedIn
 - [ ] Instructions in the corner
-- [ ] A production Readme
+- [ x ] A production Readme
 
 ### Wireframes
 
@@ -70,4 +69,5 @@ In addition to the webpack entry file, there will be three scripts involved in t
 
 Here are a few features that I would eventually like to add to this project:
 
+- [ ] Record score of player
 - [ ] Allow players to share their highest score on social media
